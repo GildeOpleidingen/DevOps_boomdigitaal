@@ -11,8 +11,8 @@ Add it to your LAN segment and give it a static IP
 [UBUNTU static IP](UBUNTU_static_ip.md)
 
 4. Clone the Ubuntu server to get the second ubuntu server
-5. Clone the Ubuntu server to get the ansible server
-6. Clone the Ubuntu server to get the docker server
+5. On your desktop intall ansible
+6. On the desktop install docker
 7. Clone the Ubuntu server to get the git server
 
 
