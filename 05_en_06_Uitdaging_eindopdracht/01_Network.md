@@ -119,9 +119,23 @@ Voer onderstaande commando’s uit en maak screenshots van de uitvoer:
 
 ## Uitvoeren
 
-- DHCP pools aanmaken
-- DHCP servers configureren
-- Default routes instellen
+### DHCP pools aanmaken
+```
+/ip pool
+add name=pool_vlan10 ranges=10.10.10.100-10.10.10.200
+```
+### DHCP servers configureren
+
+```
+/ip dhcp-server
+add name=dhcp_vlan10 interface=vlan10 address-pool=pool_vlan10
+```
+### Default routes instellen
+```
+/ip dhcp-server network
+add address=10.10.10.0/24 gateway=10.10.10.1 dns-server=10.10.10.1
+```
+
 - DNS configureren
 
 ---
