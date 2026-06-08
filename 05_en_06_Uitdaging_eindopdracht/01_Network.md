@@ -52,11 +52,55 @@ Maak screenshots van:
 
 ## Uitvoeren
 
-- Bridge aanmaken
-- VLAN filtering activeren
-- Tagged/untagged poorten configureren
-- VLAN interfaces maken
-- IP-adressen toewijzen
+### Bridge aanmaken (vlan filtering uit zetten!)
+
+```bash
+/interface bridge
+add name=bridge1 vlan-filtering=no
+```
+
+```bash
+/interface bridge port
+add bridge=bridge1 interface=ether2
+add bridge=bridge1 interface=ether3
+add bridge=bridge1 interface=ether4
+add bridge=bridge1 interface=ether5
+```
+
+### VLAN interfaces maken
+
+```bash
+/interface vlan
+add interface=bridge1 name=vlan10 vlan-id=10
+```
+
+### IP-adressen toewijzen
+
+```bash
+/ip address
+add address=10.10.10.1/24 interface=vlan10
+```
+
+### Tagged/untagged poorten configureren
+
+```bash
+/interface/bridge/vlan
+add bridge=bridge1 vlan-ids=10 tagged=bridge1 untagged=ether2
+```
+```bash
+/interface bridge port
+set [find interface=ether2] pvid=10
+```
+
+### VLAN filtering activeren
+
+```bash
+/interface bridge
+set bridge1 vlan-filtering=yes
+```
+
+
+
 
 ---
 
