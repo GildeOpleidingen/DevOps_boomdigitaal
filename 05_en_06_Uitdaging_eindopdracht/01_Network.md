@@ -154,10 +154,12 @@ add address=10.10.10.0/24 gateway=10.10.10.1 dns-server=10.10.10.1
 
 ## Uitvoeren
 
-- Basis firewall rules configureren
-- WinBox beperken tot management VLAN
-- SSH-toegang beperken
-- NAT configureren
+###  Basis firewall rules configureren (NAT)
+
+```bash
+/ip firewall nat
+add chain=srcnat out-interface=ether1 action=masquerade
+```
 
 ---
 
