@@ -45,7 +45,7 @@ Automatisch gebruikersaccounts aanmaken voor klanten met Ansible.
 | Klant | Username | Wachtwoord |
 |---|---|---|
 | Stichting BCA | stichtingbca | acbgnithcits |
-| Regenboog BV | regenboogbv | vbgoobneger |
+| Regenboog BV | regenboogbv | vbgoobneg |
 | Vereniging Golf | vereniginggolf | floggnigineerev |
 
 ---
