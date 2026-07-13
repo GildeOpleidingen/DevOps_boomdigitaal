@@ -4,7 +4,8 @@
 
 ## DevOps explained
 
-<iframe width="776" height="433" src="https://www.youtube.com/embed/_I94-tJlovg" title="What is DevOps? - In Simple English" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![DevOps](https://img.youtube.com/vi/_I94-tJlovg/0.jpg)](https://www.youtube.com/watch?v=_I94-tJlovg)
+
 
 
 
