@@ -8,10 +8,11 @@
 
 ## Github
 
+[![Github](https://img.youtube.com/vi/I_HUpijfGtg/0.jpg){https://www.youtube.com/watch?=v=I_HUpijfGtg)
+
 ## Github project
 
-
-
+tbd
 
 ## CI/CD 
 

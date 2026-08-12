@@ -14,6 +14,3 @@ Add it to your LAN segment and give it a static IP
 5. On your desktop intall ansible
 6. On the desktop install docker
 7. Clone the Ubuntu server to get the git server
-
-
-

@@ -1,7 +1,4 @@
-# 05 en 06 Uitdaging eindopdracht
-
-> Deze eindopdracht vevangt de opdracht 5 en 6 van boom (deze hoef je niet te doen)
-> Neem wel 2. uitrollen DevOps van 05 Uitollen DevOps door 
+# Uitdaging eindopdracht
 
 > Als je klaar bent met deze eindopdracht maak je een afspraak voor een cgi gesprek waar je het werk presenteert.
 
